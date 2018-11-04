@@ -1,9 +1,9 @@
 [info]
 title=Draw Lines
-desc=Some description
+desc=Draws pseudo-graphic frames in text, by Shift+arrows
 type=cudatext-plugin
 subdir=cuda_draw_lines
-homepage=
+homepage=https://github.com/CudaText-addons/cuda_draw_lines
 
 [item2]
 section=commands
