@@ -1,4 +1,4 @@
-plugin for CudaText.
+﻿plugin for CudaText.
 allows to draw preudo-graphic frames in text, using Unicode "box" chars,
 which were available in DOS codepage ages ago.
 
