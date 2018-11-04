@@ -4,8 +4,8 @@ which were available in DOS codepage ages ago.
 
 example of frames:
        ╒════╦═╗
-       │   ╔╬═╬╦═╦═════╗
-   ╒═╕ │   ╠╩╤╩╩═╩─┬─┐ ║
+       │   ╔╬═╬╤═╤═════╗
+   ╒═╕ │   ╠╩╤╩╧═╧─┬─┐ ║
    └─┴─┤ ┌┬╨─┤    ┌┼─┼─╜
   ╙────┴─┴┴──┴────┴┴─┘
 
