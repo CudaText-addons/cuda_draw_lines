@@ -1,0 +1,11 @@
+[info]
+title=Draw Lines
+desc=Some description
+type=cudatext-plugin
+subdir=cuda_draw_lines
+homepage=
+
+[item2]
+section=commands
+caption=Draw Lines
+method=toggle
