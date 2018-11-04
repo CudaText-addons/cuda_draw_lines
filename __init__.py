@@ -131,6 +131,8 @@ class Command:
                 px1 = px2
             if py1==0 and py2==0:
                 px1 = px2
+            if py1>0 and py2>0 and py1!=py2:
+                py2 = py1
                 
         elif dir=='l':
             px1 = 2 if self.mode else 1
@@ -138,6 +140,8 @@ class Command:
                 px2 = px1
             if py1==0 and py2==0:
                 px2 = px1
+            if py1>0 and py2>0 and py1!=py2:
+                py2 = py1
                 
         elif dir=='u':
             py1 = 2 if self.mode else 1
@@ -145,6 +149,8 @@ class Command:
                 py2 = py1
             if px1==0 and px2==0:
                 py2 = py1
+            if px1>0 and px2>0 and px1!=px2:
+                px2 = px1
                 
         elif dir=='d':
             py2 = 2 if self.mode else 1
@@ -152,6 +158,8 @@ class Command:
                 py1 = py2
             if px1==0 and px2==0:
                 py1 = py2
+            if px1>0 and px2>0 and px1!=px2:
+                px2 = px1
             
         for ch in PROPS:
             if PROPS[ch]==(px1, py1, px2, py2):
