@@ -4,8 +4,8 @@ import cudatext_keys as kk
 import cudatext_cmd as cmds
 
 MSG_OFF = 'Turned off' 
-MSG_ONE = 'Shift+arrows: ├───┤' 
-MSG_TWO = 'Shift+arrows: ╠═══╣'
+MSG_ONE = 'Shift+arrows: ─┼─┼─' 
+MSG_TWO = 'Shift+arrows: ═╬═╬═'
 
 PROPS = {
   '─': (1, 0, 1, 0),
