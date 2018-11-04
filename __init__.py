@@ -161,8 +161,8 @@ class Command:
             if px1>0 and px2>0 and px1!=px2:
                 px2 = px1
             
-        for ch in PROPS:
-            if PROPS[ch]==(px1, py1, px2, py2):
+        for (ch, p) in PROPS.items():
+            if p==(px1, py1, px2, py2):
                 return ch
             
         return '?'        
