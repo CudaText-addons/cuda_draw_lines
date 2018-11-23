@@ -170,6 +170,11 @@ class Command:
 
     def on_key(self, ed_self, key, state):
 
+        # handle case when 'reset python plugins' was called
+        if not self.act:
+            app_proc(PROC_SET_EVENTS, 'cuda_draw_lines;;;')
+            return
+
         if state=='' and key==kk.VK_F9:
             self.mode = not self.mode
             self.status()
